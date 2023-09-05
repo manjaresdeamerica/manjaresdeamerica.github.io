@@ -97,6 +97,7 @@
    * BORDER RADIUS
    */
 
+  --radius-6: 6px;
   --radius-24: 24px;
   --radius-circle: 50%;
 
@@ -311,7 +312,6 @@ body.nav-active { overflow: hidden; }
 }
 
 .section-subtitle::after {
-  content: url('../images/separator.svg');
   display: block;
   width: 100px;
   margin-inline: auto;
@@ -1061,7 +1061,7 @@ body.nav-active { overflow: hidden; }
 
 .menu-card .card-banner {
   flex-shrink: 0;
-  border-radius: var(--radius-24);
+  border-radius: var(--radius-6);
 }
 
 .menu-card .card-title { transition: var(--transition-1); }
